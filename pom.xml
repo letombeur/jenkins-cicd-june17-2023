@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>freddy</name>
-	      <url>http://35.183.125.208:8081/repository/num1-real/</url>
+	      <url>http://35.183.125.208:8081/repository/piperelease/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>freddy</name>
-	      <url>http://35.183.125.208:8081/repository/num2-snap/</url>
+	      <url>http://35.183.125.208:8081/repository/pipesnapsot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
