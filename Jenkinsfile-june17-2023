@@ -40,7 +40,7 @@ pipeline{
 
         stage('deploy to test environment'){
             steps{
-                sh "echo 'deploying to tomca'"
+                sh "echo 'deploying to tomcat'"
 
             }
         }
