@@ -7,8 +7,8 @@ pipeline{
     stages{
         stage('checkoutfromsourcecode'){
             steps{
-                sh "echo 'today is june 17 bulding pipelines for welcomeapp'"
-                git 'https://github.com/Lion-Technology-Solutions/jenkins-cicd-june17-2023.git'
+                sh "echo 'today is july 31 bulding pipelines for welcomeapp'"
+                git 'https://github.com/letombeur/jenkins-cicd-june17-2023'
             }
         }
 
@@ -26,7 +26,7 @@ pipeline{
 
         stage('codequality+analysis'){
             steps{
-                sh "echo 'Running continouse feedback and testing'  "
+                sh "echo 'Running continuous feedback and testing'  "
                 sh "mvn sonar:sonar"
             }
         }
